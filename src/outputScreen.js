@@ -8,8 +8,8 @@ import OutputScreenRow from './outputScreenRow.js';
 const OutputScreen = () => {
   return (
     <div className="screen">
-      <OutputScreenRow />
-      <OutputScreenRow />
+      <OutputScreenRow value={props.question} />
+      <OutputScreenRow value={props.answer} />
     </div>
   );
 };
